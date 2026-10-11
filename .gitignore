@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# CPython and IPython
+*.so
+.ipynb_checkpoints
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables and API keys
+.env
+.env.local
+.env.*.local
+*.env
+
+# Application logs
+*.log
+app.log
+
+# Temporary downloads and video caches
+temp_downloads/
+*.tmp
+
+# Operating system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Old or redundant data dumps (optional)
+/data/

@@ -1,0 +1,43 @@
+# MovieMatch AI — Requirements
+# Python 3.10+ recommended
+
+# Core ML
+sentence-transformers>=2.7.0
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+
+# CLIP (OpenAI)
+git+https://github.com/openai/CLIP.git
+
+# Streamlit UI
+streamlit>=1.35.0
+
+# Image processing
+Pillow>=10.0.0
+pytesseract>=0.3.10   # optional — OCR (requires tesseract binary)
+
+# Video processing (optional — for frame extraction)
+opencv-python-headless>=4.8.0
+
+# Video downloading
+yt-dlp>=2024.1.0
+
+# Data fetching
+requests>=2.31.0
+urllib3>=2.0.0
+
+# Data processing
+pandas>=2.0.0
+plotly>=5.18.0
+
+# Config / utils
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+pydantic-settings>=2.2.0
+tqdm>=4.66.0
+python-slugify>=8.0.0
+
+# Scheduling (optional)
+APScheduler>=3.10.0

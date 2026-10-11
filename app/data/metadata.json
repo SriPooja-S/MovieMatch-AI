@@ -1,0 +1,37 @@
+{
+  "last_update": "2026-03-29T22:46:47.676062",
+  "total_movies": 2534,
+  "last_operation": "incremental_update",
+  "details": {
+    "new_movies": 65,
+    "days": 7
+  },
+  "version": 5,
+  "history": [
+    {
+      "timestamp": "2026-01-29T23:32:32.040395",
+      "operation": "full_ingest",
+      "total_movies": 1245
+    },
+    {
+      "timestamp": "2026-01-30T20:32:25.550924",
+      "operation": "incremental_update",
+      "total_movies": 1346
+    },
+    {
+      "timestamp": "2026-03-28T15:38:55.856891",
+      "operation": "incremental_update",
+      "total_movies": 1496
+    },
+    {
+      "timestamp": "2026-03-29T18:57:02.973511",
+      "operation": "targeted_update",
+      "total_movies": 2469
+    },
+    {
+      "timestamp": "2026-03-29T22:46:47.676062",
+      "operation": "incremental_update",
+      "total_movies": 2534
+    }
+  ]
+}
